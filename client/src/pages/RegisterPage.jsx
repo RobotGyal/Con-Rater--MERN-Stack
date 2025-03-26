@@ -11,8 +11,8 @@ export default function RegisterPage(){
         axios.post('/register', {
             name,
             email,
-            password
-        })
+            password,
+        });
     }
     return (
     <div className="mt-4 grow flex items-centered justify-around">

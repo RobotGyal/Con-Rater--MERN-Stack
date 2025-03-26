@@ -7,7 +7,7 @@
   --color-primary: #2e5eb8;
 }
 
-input[type="text"],input[type="password"]{
+input[type="email"],input[type="password"], input[type="name"]{
   @apply w-full border my-1 py-2 px-3 rounded-2xl;
 }
 

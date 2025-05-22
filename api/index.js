@@ -47,7 +47,7 @@ app.post('/login', async (req, res)=>{
         const passOk = bcrypt.compareSync(password, userDoc.password)
         if (passOk){
             jwt.sign({email:userDoc.email, 
-                id:userDoc._id
+                id:userDoc._id 
             }, jwtSecret, {}, (err, token) =>{
                 if (err) throw err;
                 res.cookie('token', token, {

@@ -4,6 +4,7 @@ import Layout from './components/Layout.jsx'
 import IndexPage from './pages/IndexPage.jsx'
 import LoginPage from './pages/LoginPage.jsx'
 import RegisterPage from './pages/RegisterPage.jsx'
+import AccountPage from './pages/AccountPage.jsx'
 import axios from 'axios'
 import { UserContextProvider } from './components/UserContext.jsx'
 
@@ -18,7 +19,7 @@ function App() {
           <Route index element={<IndexPage />} />
           <Route path='/login' element={<LoginPage />} /> 
           <Route path='/register' element={<RegisterPage />} /> 
-
+          <Route path='/account' element={<AccountPage />} />
         </Route>
       </Routes>
     </UserContextProvider>

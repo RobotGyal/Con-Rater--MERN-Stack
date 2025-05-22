@@ -16,7 +16,8 @@
 
 ---
 
-<p align="center"> For keeping up to date with conventions! Rate and review events!
+<p align="center"> For keeping up to date with Conventions and Conferences!! <br>
+Rate, Review, and Favorite  events!
     <br> 
 </p>
 
@@ -53,17 +54,16 @@ Give examples
 
 A step by step series of examples that tell you how to get a development env running.
 
-Say what the step will be
 
-```
-Give the example
-```
+If downloading to run locally:
+1. Clone using the Repo URL
+2. Open terminal, Navigate into the client folder, and run the below code to run 
 
-And repeat
+```$ yarn dev```
 
-```
-until finished
-```
+3. To run api, open a seperate terminal tab (do not close the other one). Navigate to the api folder and run
+
+```nodemon index.js```
 
 End with an example of getting some data out of the system or using it for a little demo.
 
@@ -87,9 +87,15 @@ Explain what these tests test and why
 Give an example
 ```
 
+
+
+
 ## 🔧 Running the tests <a name = "tests"></a>
 
 Explain how to run the automated tests for this system.
+
+
+
 
 ### Break down into end to end tests
 
@@ -99,6 +105,9 @@ Explain what these tests test and why
 Give an example
 ```
 
+
+
+
 ### And coding style tests
 
 Explain what these tests test and why
@@ -107,13 +116,28 @@ Explain what these tests test and why
 Give an example
 ```
 
+
+
+
+
 ## 🎈 Usage <a name="usage"></a>
 
 Add notes about how to use the system.
 
+
+
+
+
+
 ## 🚀 Deployment <a name = "deployment"></a>
 
 Add additional notes about how to deploy this on a live system.
+
+
+
+
+
+
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
